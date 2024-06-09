@@ -1,6 +1,9 @@
 Web Annotator
+
 A web-based extension for annotating web pages.
 These instructions will help you set up the project on your local machine for development and testing purposes:
+
+
 1)Clone the repository
 
 2)Copy code

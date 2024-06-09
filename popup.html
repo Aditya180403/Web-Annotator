@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Annonator</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .color-picker { margin: 10px 0; }
+        .note { margin: 10px 0; }
+      </style>
+</head>
+<body>
+    <h2>Web Annotator</h2>
+  <div class="search">
+    <input type="text" id="search" placeholder="Search annotations...">
+    <button id="search-btn">Search</button>
+  </div>
+  <div class="color-picker">
+    <label for="highlight-color">Highlight Color:</label>
+    <input type="color" id="highlight-color" value="#ffff00">
+  </div>
+  <div>
+    <button id="highlight-btn">Highlight</button>
+  </div>
+  <div class="note">
+    <textarea id="note" rows="4" cols="30" placeholder="Add a note..."></textarea>
+  </div>
+  <div>
+    <button id="save-note-btn">Save Note</button>
+  </div>
+  <div id="annotations-list"></div>
+  <div>
+    <button id="export-btn">Export Annotations</button>
+    <button id="delete-note-btn">Delete Note</button>
+
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

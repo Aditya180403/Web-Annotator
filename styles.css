@@ -1,0 +1,15 @@
+.annotation {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 2px;
+    border-radius: 2px;
+  }
+  
+  .annotation-note {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+  }
+  
